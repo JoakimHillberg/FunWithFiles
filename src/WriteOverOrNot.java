@@ -29,10 +29,11 @@ public class WriteOverOrNot {
     public void writeToFile() {
         Scanner myScan = new Scanner(System.in);
         FileWriter myFileWriter;
-        while (true) {
-            System.out.print("Write over previous contents(y/n): ");
-            String response = myScan.nextLine();
 
+        System.out.print("Write over previous contents(y/n): ");
+        String response = myScan.nextLine();
+
+        while (true) {
             if (!response.equals("y") && !response.equals("n")) {
                 System.out.print("Write y for yes or n for no: ");
                 response = myScan.nextLine();
