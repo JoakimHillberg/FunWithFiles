@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class FindLongestWord {
     // Attributes
-    String longestWord = "";
-    String fileName = "words.txt";
-    File myFile = new File(fileName);
-    Scanner fileScan;
+    private String longestWord = "";
+    private String fileName = "words.txt";
+    private File myFile = new File(fileName);
+    private Scanner fileScan;
 
     public FindLongestWord() {
         createFileObject();
