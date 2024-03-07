@@ -1,5 +1,5 @@
 /*
-* Class that reads a file names words.txt and tells the user what the longest word is.
+* klass som läser från filen words.txt och berättar för användaren vilket ord som är längst.
 */
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,8 +19,8 @@ public class FindLongestWord {
 
     // Methods
     /*
-    * Creates a Scanner that reads from the words.txt file.
-    * If the words.txt file does not exist there is an error message.
+    * Skapar en Scanner som läser från words.txt filen.
+    * Om words.txt filen inte finns skickas ett felmeddelande.
     */
     public void createFileObject() {
         try {
@@ -32,10 +32,10 @@ public class FindLongestWord {
     }
 
     /*
-    * Reads one line at a time until there are no other lines.
-    * Checks if the length of the word on a line is longer than the previous longestWord.
-    * If it is the variable is changed to the newly found longestWord.
-    * At the end the program writes out what the longest word is.
+    * Läser en rad i taget tills programmet gått igenom hela filen.
+    * Kollar om längden av ordet på än rad är längre än tidigare longestWord.
+    * Om det är längre byts longestWord till det nya ordet.
+    * I slutet skriver porgrammet ut vad det längsta ordet i filen är.
     */
     public void findLongestWord() {
         while (fileScan.hasNextLine()) {
