@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        new WriteOverOrNot();
+        // new WriteOverOrNot();
+        new FindLongestWord();
     }
 }
