@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01c0bc9b-170b-48ba-95d9-2be40f419c28" name="Changes" comment="Skapade klassen FindLongestWord där programmet läser igenom en fil med ett ord per rad och tittar vilket som är det längsta ordet i filen. Det ordet skrivs ut i slutet.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01c0bc9b-170b-48ba-95d9-2be40f419c28" name="Changes" comment="Gjorde alla attributer på FindLongestWord till private." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +78,7 @@
       <workItem from="1708705016230" duration="3537000" />
       <workItem from="1709806028745" duration="2867000" />
       <workItem from="1709811398581" duration="19000" />
+      <workItem from="1709811453332" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="Kommenterade och skapade klassen WriteOverOrNot som skapar en fil och låter användaren antingen skriva över eller lägga till text i .txt filen. Läser även filens innehåll efter användaren har ändrat något.">
       <option name="closed" value="true" />
@@ -105,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709811141383</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Gjorde alla attributer på FindLongestWord till private.">
+      <option name="closed" value="true" />
+      <created>1709811521043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709811521043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +122,7 @@
     <MESSAGE value="Kommenterade och skapade klassen WriteOverOrNot som skapar en fil och låter användaren antingen skriva över eller lägga till text i .txt filen. Läser även filens innehåll efter användaren har ändrat något." />
     <MESSAGE value="Fixade ett problem där programmet frågade efter y eller n två gånger i while-loopen genom att flytta en av de  ovanför while-loopen där den borde vara." />
     <MESSAGE value="Skapade klassen FindLongestWord där programmet läser igenom en fil med ett ord per rad och tittar vilket som är det längsta ordet i filen. Det ordet skrivs ut i slutet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Skapade klassen FindLongestWord där programmet läser igenom en fil med ett ord per rad och tittar vilket som är det längsta ordet i filen. Det ordet skrivs ut i slutet." />
+    <MESSAGE value="Gjorde alla attributer på FindLongestWord till private." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gjorde alla attributer på FindLongestWord till private." />
   </component>
 </project>

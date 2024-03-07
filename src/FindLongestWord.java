@@ -1,3 +1,6 @@
+/*
+* Class that reads a file names words.txt and tells the user what the longest word is.
+*/
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
